@@ -2,7 +2,6 @@ const myModal = new bootstrap.Modal("#register-modal");
 let logged = sessionStorage.getItem("logged");
 const session = localStorage.getItem("session");
 
-checkLogged();
 
 ///LOGAR NO SISTEMA
 document.getElementById("login-form").addEventListener("submit", function(e) {
